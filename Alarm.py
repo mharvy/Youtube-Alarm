@@ -58,6 +58,8 @@ if strftime("%H:%M", localtime()) == alarm_time:
     f_lines = open('YT.txt', 'r').read().splitlines()
     current_line = random.choice(f_lines)
     webbrowser.open_new_tab(current_line)
+    exit()
+
 
 
 
